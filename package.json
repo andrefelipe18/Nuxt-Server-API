@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-app",
+  "devDependencies": {
+    "@biomejs/biome": "1.5.3",
+    "nuxt": "^3.9.3",
+    "vue": "^3.4.14",
+    "vue-router": "^4.2.5"
+  },
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "type": "module",
+  "dependencies": {
+    "@prisma/client": "5.8.1",
+    "prisma": "^5.8.1"
+  }
+}
